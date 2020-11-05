@@ -1,0 +1,25 @@
+{
+  "name": "generator_readme",
+  "version": "1.0.0",
+  "description": "generate readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Myau5x/generator_readme.git"
+  },
+  "keywords": [
+    "readme"
+  ],
+  "author": "Olga Illarionova",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Myau5x/generator_readme/issues"
+  },
+  "homepage": "https://github.com/Myau5x/generator_readme#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
