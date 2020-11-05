@@ -29,7 +29,7 @@ const questions = [
 },
 {
   type: "list",
-  choices: ["ISC", "MIT"],
+  choices: ["ISC", "MIT", "Apache License 2.0", "BSD 3-Clause License", "BSD 2-Clause License", "Boost Software License 1.0", "CC0","Eclipse Public License 1.0","GNU GPL v3.0","GNU GPL v2","GNU AGPL v3","GNU LGPL v3","Mozilla Public License 2.0", "The Unlicense"],
   message: "What license do you use?",
   name: "license"
 },
