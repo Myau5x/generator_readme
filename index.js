@@ -24,21 +24,37 @@ const questions = [
 },
 {
   type:"input",
-  message: "Whats is your email?",
+  message: "What is your email?",
   name: "email"
 },
+{
+  type:"input",
+  message: "What is your Github username?",
+  name: "github"
+},
+{
+  type:"input",
+  message: "How to install?",
+  name: "install"
+},
+{
+  type:"input",
+  message: "How to use?",
+  name: "usage"
+},
+{
+  type:"input",
+  message: "How to test?",
+  name: "test"
+},
+
 {
   type: "list",
   choices: ["ISC", "MIT", "Apache License 2.0", "BSD 3-Clause License", "BSD 2-Clause License", "Boost Software License 1.0", "CC0","Eclipse Public License 1.0","GNU GPL v3.0","GNU GPL v2","GNU AGPL v3","GNU LGPL v3","Mozilla Public License 2.0", "The Unlicense"],
   message: "What license do you use?",
   name: "license"
 },
-{
-  type: "list",
-  choices: ["email","phone","mail"],
-  message: "What is your preferred method of communciation?",
-  name: "method"
-}
+
 
 ];
 
