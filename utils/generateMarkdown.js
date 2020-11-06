@@ -14,20 +14,25 @@ licenses  = {"ISC":["[![License: ISC](https://img.shields.io/badge/License-ISC-b
   "Mozilla Public License 2.0":["[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)","[License: MPL 2.0](https://opensource.org/licenses/MPL-2.0)"],
   "The Unlicense":["[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)","[License: Unlicense](http://unlicense.org/)"]}
 
+  /**
+   * Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+   */
 function generateMarkdown(data) {
   return `# ${data.title} ${licenses[data.license][0]}
   ${data.description}
   # Table of Contents
   1. [Installation](#installation)
-  2. [Contribution Guidelines](#contribution-guidelines)
-  3. [Test](#test)
-  4. [License](#license)
-  5. [Questions](#questions)
+  2. [Usage](#usage)
+  3. [License](#license)
+  4. [Contribution Guidelines](#contribution-guidelines)
+  5. [Test](#test)
+  6. [Questions](#questions)
 ## Installation
-## Contribution Guidelines 
-## Test
+## Usage
 ## License
 ${licenses[data.license][1]}
+## Contribution Guidelines 
+## Test
 ## Questions
 ${data.email}
  
