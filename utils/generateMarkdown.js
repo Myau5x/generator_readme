@@ -28,13 +28,20 @@ function generateMarkdown(data) {
   5. [Test](#test)
   6. [Questions](#questions)
 ## Installation
+To install please use: 
+\`${data.install}\`
 ## Usage
+To use do next: 
+\`${data.usage}\`
 ## License
 ${licenses[data.license][1]}
 ## Contribution Guidelines 
+${data.contribute}
 ## Test
+To test use:
+\` ${data.test}\`
 ## Questions
-${data.email}
+For questionts please contact [me](https://github.com/${data.github}) at ${data.email}
  
 
 `;

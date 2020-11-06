@@ -1,17 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require('./utils/generateMarkdown');
-/**
- * Prompt your user with the following questions:
-
-"What is your name?"
-
-"What languages do you know?"
-
-What is your preferred method of communciation?"
-
-Then write the user response to a file.
- */
 const questions = [    
 { type: "input",
   message: "What is your project title?",
@@ -41,6 +30,11 @@ const questions = [
   type:"input",
   message: "How to use?",
   name: "usage"
+},
+{
+  type:"input",
+  message: "How to contribute to project?",
+  name: "contribute"
 },
 {
   type:"input",
