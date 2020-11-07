@@ -19,6 +19,7 @@ To use do next:
 A command-line application that accepts user input and generate README file for user project.
 Generated file contains Title, Description, License badge and such section as  Installation, Usage, Contributing, Tests and Question.
 ![CLI screenshot](./gen_readme.png)
+[Video how it work](https://drive.google.com/file/d/1uADNvRAKNJy6OkjjrNceiWElCCTt6sMt/view?usp=sharing)
 
 For promts I used `inquirer` node packages
 ## Files
