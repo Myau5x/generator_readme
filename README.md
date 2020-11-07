@@ -16,7 +16,15 @@ To use do next:
 ## License
 [License: MIT](./LICENSE)
 ## Detailed description
+A command-line application that accepts user input and generate README file for user project.
+Generated file contains Title, Description, License badge and such section as  Installation, Usage, Contributing, Tests and Question.
+
+For promts I used `inquirer` node packages
 ## Files
+ - `index.js` main file that ask user information
+ - `utils/generateMarkdown.js` module that generate markdown file
+ - `package.json` files with node dependencies
+ - `example.md` example of generated readme file
 
 ## Questions
 For questionts please contact [me](https://github.com/Myau5x) at ola.illari@gmail.com
